@@ -1,8 +1,9 @@
 <template>
-  <header class="teaser" v-editable="blok">
-    <CImage :image="blok.logo || {}" />
-    <Navigation :items="blok.navigation || []" />
-  </header>
+  <!-- TEASER COMPONENT -->
+  <div class="teaser"
+       v-editable="blok">
+    {{ blok.headline }}
+  </div>
 </template>
 
 <script>

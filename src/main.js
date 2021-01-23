@@ -30,7 +30,7 @@ export default function (Vue, { router, head, isClient }) {
     }
     next()
   })
-      
+
   router.afterEach(() => {
     NProgress.done()
   })

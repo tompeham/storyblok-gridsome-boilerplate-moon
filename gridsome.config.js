@@ -20,7 +20,7 @@ module.exports = {
       use: 'gridsome-source-storyblok',
       options: {
         client: {
-          accessToken: 'BTMojCrwizNsz0Haf5VmjQtt' // Your_Access_Token_Here
+          accessToken: 'h7tTYNZKAj8GBHMSMb5uAwtt' // Your_Access_Token_Here
         },
         version: 'published',
         downloadImages: true,
@@ -38,7 +38,7 @@ module.exports = {
   chainWebpack (config) {
     // Load variables for all vue-files
     const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
-    
+
     types.forEach(type => {
       addStyleResource(config.module.rule('sass').oneOf(type))
     })
