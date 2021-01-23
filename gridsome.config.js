@@ -12,8 +12,8 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-  siteName: 'Gridsome Multilanguage Website',
-  siteDescription: 'A demonstration website of use Storyblok with Gridsome',
+  siteName: 'Thomas Peham Marketing Expert',
+  siteDescription: 'This is the personal website of Thomas Peham, SaaS marketing expert.',
   siteUrl: 'https://demo.storyblok.com',
   plugins: [
     {
